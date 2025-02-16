@@ -1,0 +1,41 @@
+/* ******************************************************* */
+                        /* GLOBAL */
+/* ******************************************************* */
+
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* box -sizing */
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+/* Variables */
+html {
+    /* colors */
+    --slate-900: #1f314f;
+    --slate-500: #68778d;
+    --slate-300: #d5e1ef;
+    --white: #fff;
+
+    /* Typography */
+
+    /* <weight>: Use a value from 100 to 900
+     <uniquifier>: Use a unique and descriptive class name */
+
+    .outfit--text-style-1 {
+        font-family: "Outfit", serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        line-height: 120%;
+        letter-spacing: 0px;
+    }
+}
