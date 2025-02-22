@@ -1,6 +1,8 @@
 
 # Do not track design files
-../design/
+design/
 
-../README.md
-../style-guide.md
+preview.jpg
+
+README.md
+style-guide.md
