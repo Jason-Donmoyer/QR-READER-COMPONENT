@@ -5,8 +5,7 @@
 # Do not track design files
 design/
 
-# Don not track README and style guides
-README.md
+# Don not track style guides
 style-guide.md
 
 # Do not track screenshot
