@@ -1,8 +1,13 @@
 
+# Do not track .DS_Store file
+.DS_Store
+
 # Do not track design files
 design/
 
-preview.jpg
-
+# Don not track README and style guides
 README.md
 style-guide.md
+
+# Do not track screenshot
+QR-Reader-Screenshot.png
