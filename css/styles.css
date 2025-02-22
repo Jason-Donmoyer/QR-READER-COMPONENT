@@ -5,6 +5,17 @@
 /* IMPORTS */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+/* Variables */
+:root {
+    font-size: 16px;
+
+    /* colors */
+    --slate-900: #1f314f;
+    --slate-500: #68778d;
+    --slate-300: #d5e1ef;
+    --white: #fff;     
+}
+
 /* box -sizing */
 html {
     -webkit-box-sizing: border-box;
@@ -16,19 +27,6 @@ html {
     -moz-box-sizing: inherit;
     box-sizing: inherit;
     }
-
-/* Variables */
-html {
-
-    font-size: 15px;
-    /* colors */
-    --slate-900: #1f314f;
-    --slate-500: #68778d;
-    --slate-300: #d5e1ef;
-    --white: #fff;
-
-        
-}
 
 /* Typography */
 
@@ -71,14 +69,14 @@ body {
 .main-container {
     background-color: var(--white);
     border-radius: 20px;
-    height: 499px;
-    width: 320px;
-    padding: 16px;
+    height: 31.1875rem;
+    width: 20rem;
+    padding: 1rem 1rem 2.5rem 1rem;
 }
 
 .hero {
-    height: 288px;
-    width: 288px;
+    height: 18rem;
+    width: 18rem;
     border-radius: 10px;
 }
 
@@ -87,7 +85,40 @@ body {
     width: 100%;
 }
 
-footer {
+.text {
+    width: 18rem;
+    height: 8.1875rem;
+    margin-top: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.main-heading {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--slate-900);
+}
+
+.main-copy {
+    margin: 0rem;
+    text-align: center;
+    color: var(--slate-500);
+}
+
+footer.attribution {
     height: 5%;
     margin-top: auto;
+}
+
+.footer-content {
+    width: 75%;
+    margin: 0px auto;
+    font-size: 0.5rem;
+    text-align: center;
+    color: var(--slate-900);
+}
+
+.footer-content a {
+    color: var(--slate-500);
+    text-decoration: none;
 }
